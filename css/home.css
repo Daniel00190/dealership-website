@@ -67,18 +67,6 @@ body {
    background-size: cover;
 }
 
-/* .top_bar {
-   padding: 0.8rem;
-   width: 100%;
-   display: flex;
-   justify-content: flex-end;
-   color: var(--clr-secondary);
-}
-
-.top_bar_links > a {
-   padding: 0 0.8rem;
-} */
-
 .nav_bar_desktop {
    transition: 0.4s;
    position: sticky;
