@@ -99,7 +99,7 @@ svg {
 
 .menu {
    position: absolute;
-   width: 1.5rem;
+   width: 2rem;
    aspect-ratio: 1;
    top: 2rem;
    right: 2rem;
@@ -118,12 +118,20 @@ svg {
       display: none;
       position: fixed;
       inset: 0 0 0 40%;
-      background: hsl(0 0% 30% / 0.1);
-      backdrop-filter: blur(2rem);
+      background: rgba(76, 59, 59, 0.694);
+      backdrop-filter: blur(1rem);
+   }
+   .nav_bar_desktop a {
+      font-size: 1.2rem;
+      color: rgb(255, 255, 255);
+   }
+   .Contact {
+      background-color: #adae73;
    }
    .nav_bar_links_container {
       flex-direction: column;
-      padding: 4rem;
+      margin-top: 4rem;
+      padding: 2rem;
       gap: min(5vh, 3rem);
    }
    .hidden_for_desktop {
