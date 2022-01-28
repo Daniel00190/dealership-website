@@ -30,7 +30,6 @@ function scrollFunction() {
       document.body.scrollTop > 50 ||
       document.documentElement.scrollTop > 50
    ) {
-      navigation.style.display = "none";
       navNar.style.padding = "1rem";
    } else {
       navNar.style.padding = ".2rem";
